@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Coyote;
+    src: url(../font/Coyote.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;

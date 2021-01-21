@@ -1,8 +1,4 @@
-@font-face {
-    font-family: Coyote;
-    src: url(../font/Coyote.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Oswald&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +35,7 @@ body {
 
 #image {
     position: absolute;
-    left: 75px;
+    left: 21.42%;
     top: 5%;
     border-radius: 50%;
     background-image: url(img1.jpg);
@@ -52,24 +48,28 @@ body {
 #name {
     position: absolute;
     left: 50%;
-    top: 260px;
+    top: 30%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: "Coyote DEMO";
+    font-weight: lighter;
+    letter-spacing: 10px;
+    font-family: 'Bowlby One SC', cursive;
 }
 
 #tag {
     position: absolute;
     left: 50%;
+    font-weight: lighter;
     margin-top: 10px;
     transform: translate(-50%, -50%);
-    font-weight: 100;
-    font-size: 14px;
-    top: 280px;
+    font-size: 8px;
+    letter-spacing: 6px;
+    top: 33%;
     width: 250px;
-    font-family: "Coyote DEMO";
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 18px;
 }
 
@@ -98,7 +98,7 @@ nav ul li {
     border-radius: 0.5em;
     width: 12em;
     height: 3em;
-    font-family: "Coyote DEMO";
+    font-family: 'Bowlby One SC', cursive;
     letter-spacing: 5px;
     text-align: center;
     line-height: 3em;
@@ -163,7 +163,7 @@ nav ul li span:nth-child(5) {
     left: 10px;
     position: absolute;
     color: #ffffff;
-    font-family: "Coyote DEMO";
+    font-family: 'Bowlby One SC', cursive;
     font-size: 60px;
     font-weight: 500;
     line-height: 80px;
